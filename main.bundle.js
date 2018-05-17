@@ -1122,7 +1122,7 @@ var AuthService = (function () {
         this.selservice = selservice;
         this.http = http;
         this.token = '';
-        this.currenthost = 'http://localhost:4201';
+        this.currenthost = 'http://apache-http-shoping-center.a3c1.starter-us-west-1.openshiftapps.com';
     }
     AuthService.prototype.signUpUser = function (email, name) {
         __WEBPACK_IMPORTED_MODULE_2_firebase__["auth"]().createUserWithEmailAndPassword(email, name)
@@ -1303,7 +1303,7 @@ var ShopingHttpService = (function () {
         this.selservice = selservice;
         this.authservice = authservice;
         this.cartservice = cartservice;
-        this.currenthost = 'http://localhost:4201';
+        this.currenthost = 'http://apache-http-shoping-center.a3c1.starter-us-west-1.openshiftapps.com';
     }
     ShopingHttpService.prototype.storerecipies = function () {
         var headers = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["a" /* Headers */]({ 'Content-Type': 'application/json' });
